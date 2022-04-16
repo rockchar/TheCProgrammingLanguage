@@ -1,0 +1,3 @@
+
+Exercise 2-2 Write the function htoi,which converts a string of hexadecimak didits (including an optional 0x or 0X)
+into its exuivalent integer value. The allowable digita are 0 through 9, a through f and A through F
