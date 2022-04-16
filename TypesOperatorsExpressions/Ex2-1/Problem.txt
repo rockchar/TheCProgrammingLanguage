@@ -1,7 +1,0 @@
-Exercise 2-1:
-Write a program to determine the ranges of char,short,int and long variables
-The ranges should be for both signed and unsigned types
-The values can be printed by checking the appropriate values from standard headers
-The values can be printed by direct computation
-
-HINT: header files limits.h and float.h contain the symbolic constants for the sizes
