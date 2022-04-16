@@ -11,6 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		90905047280ABEE900116893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9090503F280ABEE900116893 /* Ex2-6.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90905035280ABEE900116893;
+			remoteInfo = "Ex2-6";
+		};
 		90B0D0B028093BF4003A5F92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90B0D0AC28093BF3003A5F92 /* Ex2-1.xcodeproj */;
@@ -24,6 +31,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 90B0D0BF28096006003A5F92;
 			remoteInfo = "Ex2-3";
+		};
+		90E1CE36280A7386007F5DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E1CE30280A7386007F5DEB /* Ex2-4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90E1CE26280A7386007F5DEB;
+			remoteInfo = "Ex2-4";
+		};
+		90FEA166280A907F007927C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90FEA15F280A907E007927C1 /* Ex2-5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90FEA155280A907E007927C1;
+			remoteInfo = "Ex2-5";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,10 +61,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9090503F280ABEE900116893 /* Ex2-6.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ex2-6.xcodeproj"; path = "Ex2-6/Ex2-6.xcodeproj"; sourceTree = "<group>"; };
 		90B0D08928093BB0003A5F92 /* TypesOperatorsExpressions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TypesOperatorsExpressions; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B0D08C28093BB0003A5F92 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		90B0D0AC28093BF3003A5F92 /* Ex2-1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ex2-1.xcodeproj"; path = "Ex2-1/Ex2-1.xcodeproj"; sourceTree = "<group>"; };
 		90B0D0C928096006003A5F92 /* Ex2-3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ex2-3.xcodeproj"; path = "Ex2-3/Ex2-3.xcodeproj"; sourceTree = "<group>"; };
+		90E1CE30280A7386007F5DEB /* Ex2-4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ex2-4.xcodeproj"; path = "Ex2-4/Ex2-4.xcodeproj"; sourceTree = "<group>"; };
+		90FEA15F280A907E007927C1 /* Ex2-5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ex2-5.xcodeproj"; path = "Ex2-5/Ex2-5.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90905040280ABEE900116893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90905048280ABEE900116893 /* Ex2-6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		90B0D08028093BB0003A5F92 = {
 			isa = PBXGroup;
 			children = (
+				9090503F280ABEE900116893 /* Ex2-6.xcodeproj */,
+				90FEA15F280A907E007927C1 /* Ex2-5.xcodeproj */,
+				90E1CE30280A7386007F5DEB /* Ex2-4.xcodeproj */,
 				90B0D0C928096006003A5F92 /* Ex2-3.xcodeproj */,
 				90B0D0AC28093BF3003A5F92 /* Ex2-1.xcodeproj */,
 				90B0D08B28093BB0003A5F92 /* TypesOperatorsExpressions */,
@@ -95,6 +130,22 @@
 			isa = PBXGroup;
 			children = (
 				90B0D0CE28096007003A5F92 /* Ex2-3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E1CE31280A7386007F5DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E1CE37280A7386007F5DEB /* Ex2-4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90FEA160280A907E007927C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90FEA167280A907F007927C1 /* Ex2-5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +204,18 @@
 					ProductGroup = 90B0D0CA28096006003A5F92 /* Products */;
 					ProjectRef = 90B0D0C928096006003A5F92 /* Ex2-3.xcodeproj */;
 				},
+				{
+					ProductGroup = 90E1CE31280A7386007F5DEB /* Products */;
+					ProjectRef = 90E1CE30280A7386007F5DEB /* Ex2-4.xcodeproj */;
+				},
+				{
+					ProductGroup = 90FEA160280A907E007927C1 /* Products */;
+					ProjectRef = 90FEA15F280A907E007927C1 /* Ex2-5.xcodeproj */;
+				},
+				{
+					ProductGroup = 90905040280ABEE900116893 /* Products */;
+					ProjectRef = 9090503F280ABEE900116893 /* Ex2-6.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -162,6 +225,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		90905048280ABEE900116893 /* Ex2-6 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Ex2-6";
+			remoteRef = 90905047280ABEE900116893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		90B0D0B128093BF4003A5F92 /* Ex2-1 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
@@ -174,6 +244,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = "Ex2-3";
 			remoteRef = 90B0D0CD28096007003A5F92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90E1CE37280A7386007F5DEB /* Ex2-4 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Ex2-4";
+			remoteRef = 90E1CE36280A7386007F5DEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		90FEA167280A907F007927C1 /* Ex2-5 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Ex2-5";
+			remoteRef = 90FEA166280A907F007927C1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
