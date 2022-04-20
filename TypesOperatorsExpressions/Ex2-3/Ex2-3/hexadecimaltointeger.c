@@ -18,11 +18,11 @@ int htoi(char * sHex)
 {
     int result = 0;
     bool hasPrefix = false;
-    if(validateandtrim(sHex,&hasPrefix)==true)
+    if(validateandtrim(sHex,&hasPrefix) == true)
     {
         //its a valid hexa decimal string
         if(hasPrefix == true)
-        sHex += 2;
+            sHex += 2;
         
         hex_map['A'] = hex_map['a'] = 10;
         hex_map['B'] = hex_map['b'] = 11;
@@ -51,7 +51,7 @@ int htoi(char * sHex)
     return result;
 }
 
-bool validateandtrim(char * sHex,bool * bHasprefix)
+bool validateandtrim(char  *sHex,bool * bHasprefix)
 {
     int count = 0;
     bool valid = true;
@@ -67,7 +67,9 @@ bool validateandtrim(char * sHex,bool * bHasprefix)
         *bHasprefix = true;
         //trim the prefix
         sHex +=  2;
+        
     }
+    
     //no prefix so proceed
 
     while(*(sHex+count)!='\0')

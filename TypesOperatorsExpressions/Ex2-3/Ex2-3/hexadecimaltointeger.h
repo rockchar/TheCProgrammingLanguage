@@ -13,6 +13,6 @@
 //hexadecimal map;
 
 int htoi(char * sHex);
-bool validateandtrim(char * sHex,bool* bHasprefix);
+bool validateandtrim(char* sHex,bool* bHasprefix);
 
 #endif /* hexadecimaltointeger_h */

@@ -1,0 +1,5 @@
+Exercise 2-7. Write a function invert(x,p,n)
+that returns x with the n bits that begin at position p inverted
+(i.e., 1 changed into 0 and vice versa), leaving the others unchanged.
+
+W., Kernighan Brian; Ritchie Dennis. C Programming Language (p. 49). Pearson Education. Kindle Edition.

@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void Squeeze(char s1[],char s2[]);
+void Squeeze(char *s1,char *s2);
 int main(int argc, const char * argv[]) {
     char s1[128] = {'\0'},s2[128] = {'\0'};
     printf("Enter the first String   : ");
@@ -18,10 +18,11 @@ int main(int argc, const char * argv[]) {
     scanf("%[^\n]s",s2);
     getchar();
     Squeeze(s1,s2);
+    printf("\nAfter squeeze %s\n",s1);
     return 0;
 }
 
-void Squeeze(char s1[],char s2[])
+void Squeeze(char *s1,char *s2)
 {
     int j;
     for( int i = j = 0 ; s1[i]!='\0' ; i++ )
@@ -41,5 +42,5 @@ void Squeeze(char s1[],char s2[])
         }
         s1[j]='\0';
     }
-    printf("\nAfter squeeze %s\n",s1);
+    
 }

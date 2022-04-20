@@ -10,6 +10,6 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("The decimal value is %d\n",htoi("1abc"));
+    printf("The decimal value is %d\n",htoi("0x1abc"));
     return 0;
 }

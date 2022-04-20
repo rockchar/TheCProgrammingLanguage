@@ -1,0 +1,15 @@
+Exercise 2-5.
+Write the function any(s1,s2), which returns the first location in the string s1 where any character from the string s2 occurs, or −1 if s1 contains no characters from s2. (The standard library function strpbrk does the same job but returns a pointer to the location.)
+
+W., Kernighan Brian; Ritchie Dennis. C Programming Language (p. 48). Pearson Education. Kindle Edition. 
+
+
+NOTES:
+The diference is the STACK memory used.
+
+For example when programming for microcontrollers where very little memory for the stack is allocated, makes a big difference.
+
+char a[] = "string"; // the compiler puts {'s','t','r','i','n','g', 0} onto STACK
+
+char *a = "string"; // the compiler puts just the pointer onto STACK
+                    // and {'s','t','r','i','n','g',0} in static memory area.
