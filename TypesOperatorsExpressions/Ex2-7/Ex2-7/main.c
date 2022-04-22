@@ -7,8 +7,25 @@
 
 #include <stdio.h>
 
+unsigned invert(int x, int p, int n);
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    printf("%d\n",invert(69,5,3));
     return 0;
+}
+
+
+/*
+ Returns x with the n bits that begin at position p inverted
+ (i.e., 1 changed into 0 and vice versa), leaving the others
+ unchanged
+ */
+
+unsigned invert(int x, int p, int n)
+{
+    
+    //extract the n bits from poition p
+    
+    return (x^(~(~0 << (p+1-n))<<(p+1-n)));
 }
