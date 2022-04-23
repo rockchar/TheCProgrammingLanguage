@@ -7,11 +7,11 @@
 
 #include <stdio.h>
 
-unsigned invert(int x, int p, int n);
+unsigned invert(unsigned x, int p, int n);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("%d\n",invert(69,5,3));
+    printf("%d\n",invert(796,10,4));
     return 0;
 }
 
@@ -22,10 +22,10 @@ int main(int argc, const char * argv[]) {
  unchanged
  */
 
-unsigned invert(int x, int p, int n)
+unsigned invert(unsigned x, int p, int n)
 {
     
     //extract the n bits from poition p
     
-    return (x^(~(~0 << (p+1-n))<<(p+1-n)));
+    return (x^(~(~0 << n))<<(p+1-n));
 }
