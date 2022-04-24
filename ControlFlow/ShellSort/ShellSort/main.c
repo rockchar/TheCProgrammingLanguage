@@ -13,16 +13,18 @@ void shellSortFromNet(int array[], int n);
 int main(int argc, const char * argv[]) {
     // insert code here...
     int arr[]={ 3,9,1,19,2,88,54,12,99,32,45,43,31,86,56,76,75 };
-    ShellSort(arr,17);
-    for(int i=0 ;i<17;i++)
+    int arr_sz = sizeof(arr)/sizeof(int);
+    ShellSort(arr,arr_sz);
+    for(int i=0 ;i<arr_sz;i++)
     {
         printf("%d ",arr[i]);
         
     }
     int arr1[]={ 3,9,1,19,2,88,54,12,99,32,45,43,31,86,56,76,75 };
+    arr_sz = sizeof(arr1)/sizeof(int);
     printf("\n\n\nShell Sort from net\n");
-    shellSortFromNet(arr1,17);
-    for(int i=0 ;i<17;i++)
+    shellSortFromNet(arr1,arr_sz);
+    for(int i=0 ;i<arr_sz;i++)
     {
         printf("%d ",arr1[i]);
         
@@ -40,7 +42,6 @@ void ShellSort(int * arr, int nSize)
         for( i = 0 ;i+gap < nSize ; i++ )
         {
                 for (j=i+gap;j<nSize;j+=gap) {
-                
                 if(arr[i] > arr[j])
                 {
                     k++;
@@ -49,15 +50,13 @@ void ShellSort(int * arr, int nSize)
                     arr[j] = temp;
                     printf("Swapped pos %d and %d\n",i,j);
                 }
-            
             }
         }
     }
     printf("number of swaps = %d\n",k);
-    
 }
                       
-                      // Shell sort
+// Shell sort copied from net for comparison
 void shellSortFromNet(int array[], int n) {
     int k=0;
 // Rearrange elements at each n/2, n/4, n/8, ... intervals
