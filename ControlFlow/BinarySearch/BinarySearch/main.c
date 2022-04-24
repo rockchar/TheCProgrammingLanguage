@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         printf("Not Found %d\n",x);
     }
     else{
-        printf("Found number %d",result);
+        printf("Found number %d\n",result);
     }
     return 0;
 }
@@ -35,7 +35,6 @@ int BinarySearch(int x,int *arr,int size)
             return x;
         }
     }
-    
     return -1;
 }
 
