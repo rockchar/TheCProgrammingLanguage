@@ -18,6 +18,13 @@
 			remoteGlobalIDString = 4B62046A28163D30007DCC7E;
 			remoteInfo = itoa;
 		};
+		4B7C771928166B90004E1980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7C771528166B90004E1980 /* atoi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B7C770B28166B90004E1980;
+			remoteInfo = atoi;
+		};
 		90A704662814F13500A395C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90A704622814F13500A395C3 /* BinarySearch.xcodeproj */;
@@ -55,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		4B62047428163D30007DCC7E /* itoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = itoa.xcodeproj; path = itoa/itoa.xcodeproj; sourceTree = "<group>"; };
+		4B7C771528166B90004E1980 /* atoi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = atoi.xcodeproj; path = atoi/atoi.xcodeproj; sourceTree = "<group>"; };
 		90A7043F2814F11100A395C3 /* ControlFlow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ControlFlow; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A704422814F11100A395C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		90A704622814F13500A395C3 /* BinarySearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BinarySearch.xcodeproj; path = BinarySearch/BinarySearch.xcodeproj; sourceTree = "<group>"; };
@@ -81,9 +89,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4B7C771628166B90004E1980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B7C771A28166B90004E1980 /* atoi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		90A704362814F11100A395C3 = {
 			isa = PBXGroup;
 			children = (
+				4B7C771528166B90004E1980 /* atoi.xcodeproj */,
 				4B62047428163D30007DCC7E /* itoa.xcodeproj */,
 				90A70496281510A300A395C3 /* ShellSort.xcodeproj */,
 				90A7047C2814FA9F00A395C3 /* CharacterCounting.xcodeproj */,
@@ -180,6 +197,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 4B7C771628166B90004E1980 /* Products */;
+					ProjectRef = 4B7C771528166B90004E1980 /* atoi.xcodeproj */;
+				},
+				{
 					ProductGroup = 90A704632814F13500A395C3 /* Products */;
 					ProjectRef = 90A704622814F13500A395C3 /* BinarySearch.xcodeproj */;
 				},
@@ -209,6 +230,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = itoa;
 			remoteRef = 4B62047A28163D31007DCC7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B7C771A28166B90004E1980 /* atoi */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = atoi;
+			remoteRef = 4B7C771928166B90004E1980 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		90A704672814F13500A395C3 /* BinarySearch */ = {
