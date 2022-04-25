@@ -11,6 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B62047A28163D31007DCC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B62047428163D30007DCC7E /* itoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B62046A28163D30007DCC7E;
+			remoteInfo = itoa;
+		};
 		90A704662814F13500A395C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90A704622814F13500A395C3 /* BinarySearch.xcodeproj */;
@@ -47,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B62047428163D30007DCC7E /* itoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = itoa.xcodeproj; path = itoa/itoa.xcodeproj; sourceTree = "<group>"; };
 		90A7043F2814F11100A395C3 /* ControlFlow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ControlFlow; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A704422814F11100A395C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		90A704622814F13500A395C3 /* BinarySearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BinarySearch.xcodeproj; path = BinarySearch/BinarySearch.xcodeproj; sourceTree = "<group>"; };
@@ -65,9 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B62047528163D30007DCC7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B62047B28163D31007DCC7E /* itoa */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		90A704362814F11100A395C3 = {
 			isa = PBXGroup;
 			children = (
+				4B62047428163D30007DCC7E /* itoa.xcodeproj */,
 				90A70496281510A300A395C3 /* ShellSort.xcodeproj */,
 				90A7047C2814FA9F00A395C3 /* CharacterCounting.xcodeproj */,
 				90A704622814F13500A395C3 /* BinarySearch.xcodeproj */,
@@ -171,6 +188,10 @@
 					ProjectRef = 90A7047C2814FA9F00A395C3 /* CharacterCounting.xcodeproj */;
 				},
 				{
+					ProductGroup = 4B62047528163D30007DCC7E /* Products */;
+					ProjectRef = 4B62047428163D30007DCC7E /* itoa.xcodeproj */;
+				},
+				{
 					ProductGroup = 90A70497281510A300A395C3 /* Products */;
 					ProjectRef = 90A70496281510A300A395C3 /* ShellSort.xcodeproj */;
 				},
@@ -183,6 +204,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4B62047B28163D31007DCC7E /* itoa */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = itoa;
+			remoteRef = 4B62047A28163D31007DCC7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		90A704672814F13500A395C3 /* BinarySearch */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
